@@ -1,0 +1,35 @@
+
+
+.card-containers{
+    background-color:aqua;
+    display:flex;
+    flex-wrap:wrap;
+    box-sizing: border-box;
+    padding:20px 0;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width:300px;
+    margin:10px;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 4px black;
+}
+.img-style{
+    width: 100%;
+}
+.card-body{
+    padding:5px;
+    background-color:blueviolet;
+}
+.card-body .card-title{
+    font-size: 2rem;
+    text-align:center;
+    color:white;
+}
+.card-body .card-basc{
+    text-align:justify;
+    line-height:1.5;
+    color:white;
+}
+  
